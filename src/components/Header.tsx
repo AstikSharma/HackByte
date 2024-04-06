@@ -1,4 +1,4 @@
-
+import about from "../pages/About"
 import { Avatar, Dropdown, Navbar } from "flowbite-react";
 
 const Header = () => {
@@ -30,10 +30,9 @@ const Header = () => {
       </div>
       <Navbar.Collapse>
         <Navbar.Link href="#" active>Home</Navbar.Link>
-        <Navbar.Link href="#" className="text-lg">About</Navbar.Link>
-        <Navbar.Link href="#" className="text-lg">Services</Navbar.Link>
-        <Navbar.Link href="#" className="text-lg">Pricing</Navbar.Link>
-        <Navbar.Link href="#" className="text-lg">Contact</Navbar.Link>
+        <Navbar.Link href="/about" className="text-lg">About</Navbar.Link>
+        <Navbar.Link href="/pricing" className="text-lg">Pricing</Navbar.Link>
+        <Navbar.Link href="/contact" className="text-lg">Contact</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   )
