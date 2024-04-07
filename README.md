@@ -17,28 +17,30 @@ Anonimo is a web-based platform designed to facilitate anonymous video calls whi
 - **Node.js:** Backend runtime environment for server-side logic.
 - **Express:** Web application framework for Node.js used for building RESTful APIs.
 - **CSS:** Styling language for designing visually appealing user interfaces.
-
+-**WebRTC(Socket.io):** WebSockets are used for real-time, event-driven communication between clients and servers. They are particularly useful for building software applications requiring instant updates, such as real-time chat, messaging, and multiplayer games.
 ## Getting Started
 
 To get started with Anonimo, follow these steps:
 
 1. Clone the repository:
 
-   ```
-   git clone https://github.com/ravjot07/HackByte.git
-   ```
+git clone https://github.com/ravjot07/HackByte.git
 
 2. Navigate to the project directory:
 
-   ```
-   cd HackByte
-   ```
+cd HackByte
 
+
+3. Install dependencies:
+
+npm install
 
 4. Run the frontend and backend servers:
 
-   ```
-   npm start
-   ```
+npm start
 
 5. Access Anonimo in your web browser at `http://localhost:5173`.
+
+## Note
+
+This project was developed for the HackByte hackathon and is not actively maintained. Some features, such as the superimposition of AI-generated faces on live video, were not fully implemented due to time limitations and lack of resources.
